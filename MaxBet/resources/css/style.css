@@ -1,0 +1,290 @@
+/*
+
+#95a5a6
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #d3d3d3;
+    color: #555;
+    font-family: 'Open Sans','Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+header,
+footer {
+    background-color: #555;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff:
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 120%;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 15px 0;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #b5b5b5;
+    margin-right: 618px;
+}
+
+.logo {
+    float: left;
+    color: #e5e5e5;
+}
+
+.icon-small {
+    font-size: 150%;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    padding: 3px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #7e7e7e;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    font-weight: 400;
+    padding: 3px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #95a5a6;
+    border: 1px solid #95a5a6;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #95a5a6;
+    color: #fff;
+    background-color: #c4c4c4;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #687879;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #687879;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #687879;
+    color: #fff;
+    background-color: #8e8e8e;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #e5e5e5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 70%;
+    transition: color 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #fff;
+}
+
+.login-form {
+    float: right;
+    margin: 20px 0;
+    
+}
+
+.login-form li {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 70%;
+    
+}
+
+.login-form li input {
+    border-radius: 5px;
+    padding: 3px 0;
+}
+
+.login-form li a {
+    display: inline-block;
+}
+
+/* -----------------------------
+// ODDS
+ ----------------------------- */
+
+.section-odds {
+    
+}
+
+.section-odds .crop {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.section-odds crop img {
+    width: 100%;
+    margin: -75px 0 -100px 0;
+}
+
+.events-header {
+    background-color: #5d5d5d;
+    font-size: 60%;
+    padding: 0 7px;
+}
+
+.events-header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.events-header-legend {
+    display: inline;
+    float: right;
+    margin-right: 50px;
+    color: #fff;
+}
+
+.events-header-legend span {
+    margin-left: 70px;
+}
+
+.events-games-item {
+    padding: 7px 0 10px 7px;
+    font-size: 60%;
+    background-color: #fff;
+}
+
+.events-games-item:nth-child(2n) {
+    background-color: #eaeaea;
+}
+
+.events-games-details {
+    float: left;
+    width: 80px;
+}
+
+.events-teams {
+    float: left;
+    padding: 5px 0 5px 0;
+    margin-left: 60px;
+}
+
+.events-teams a {
+    text-decoration: none;
+    color: #434343;
+}
+
+.event-probs {
+    margin-top: 5px;
+    margin-left: 615px;
+}
+
+.bet-price {
+    display: inline;
+    margin-right: 50px;
+}
+
+.betslip {
+    border: 1px solid #5d5d5d;
+    border-radius: 4px;
+    padding: 10px;
+    position: fixed;
+}
+
+.betslip .single-game {
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 60%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.betslip .single-game .choice {
+    margin-top: 10px;
+    font-size: 150%;
+}
+
+.betslip .single-game .line {
+    border: 1px solid #5d5d5d;
+    margin: 0 15%;
+}
+
+.betslip .single-game .betting p {
+    font-size: 80%;
+    display: inline;
+}
+.betslip .single-game .betting .sum {
+    font-size: 80%;
+    display: inline;
+}
+
+.betslip .single-game .betting .result {
+    font-size: 150%;
+}
+
+.finally {
+    margin-bottom: 15px;
+}
+
+.finally p {
+    display: inline;
+    font-size: 70%;
+}
+
+.finally a {
+    display: inline;
+    float: right;
+}
